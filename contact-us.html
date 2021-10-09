@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Contact Rainydays for best deals" />
+    <title>Rainydays Contact us</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/b318972c4d.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header class="top-header">
+      <a href="index.html"><img src="images/rainydays-logo.png" class="rainydays_logo" alt="rainydays logo image" /></a>
+      <ul class="icons">
+        <li>
+          <a href="index.html" class="home-icon"><i class="fas fa-1.5x fa-home"></i></a>
+        </li>
+        <li>
+          <a href=""><i class="fas fa-1.5x fa-user"></i></a>
+        </li>
+        <li>
+          <a href=""><i class="fas fa-1.5x fa-heart"></i></a>
+        </li>
+        <li>
+          <a href="shopping-cart.html"><i class="fas fa-1.5x fa-shopping-cart"></i> </a>
+        </li>
+      </ul>
+     
+      <label class="hamburger-label" class="hamburger-label" for="hamburger-menu"><i class="fas fa-2x fa-bars"></i></label>
+      <input type="checkbox" id="hamburger-menu" />
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li><a href="boy.html">Boy</a></li>
+          <li><a href="girl.html">Girl</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact-us.html"><span class="active">Contact Us</span></a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="contact-style">
+      <section class="contact-decoration">
+        <h1 class="terms-head">Contact Us</h1>
+  
+        <div>
+          <ul>
+            <li>Email: info@rainydays.no</li>
+            <li>facebook.com/Rainydays</li>
+            <li>Instagram.com/Rainydays</li>
+          </ul>
+        </div>
+        <p>Or send us a message</p>
+
+        <form method="POST" class="formcontainer" id="contactform">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" class="delivery-form" />
+          <div class="validation-error" id="nameerror">You must enter your name</div>
+          <label for="subject"> Phone number</label>
+          <input type="text" name="subject" id="subject" class="delivery-form" />
+          <div class="validation-error" id="subjecterror">Phone number is in valid</div>
+          <label for="email">Email </label>
+          <input type="text" name="email" id="email" class="delivery-form" />
+          <div class="validation-error" id="emailerror">Please write the email address like this: example@company.com</div>
+          <label for="address">Message</label>
+          <textarea type="text" name="address" id="address" cols="50" rows="10" class="delivery-form"></textarea>
+          <div class="validation-error" id="addresserror">Message must have minimum 20 characters</div>
+          <div class="validation-error" id="success">Thank you for submitting !</div>
+          <button class="cta-button">SUBMIT</button>
+        </form>
+      </section>
+
+      <section class="contact-decoration">
+        <h1>You will find us here</h1>
+        <h2>Raindays</h2>
+       
+        <img src="images/google-map-image.jpg" class="map-image" alt="" />
+        <h2>Mail/delivery Address</h2>
+        <p>Rainydays</p>
+        <p>Sentrumsvegen 75</p>
+        <p>3500 Gol-Norway</p>
+        <h2>Business Information</h2>
+        <p>Rainydays</p>
+        <p>Org nr:121212121</p>
+      </section>
+    </main>
+    <footer class="footer">
+      <footer class="footer-wrapper">
+        <section class="footer-box">
+          <div class="footer-p">
+            <h2>Newsletter</h2>
+            <p>Subscribe to recive exiting news and exclusive offers.</p>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" class="signup-input" />
+            <input type="submit" value="Sign up" class="cta-button" id="cta-button-id" />
+          </div>
+          <div class="footer-p">
+            <h2>Rainydays</h2>
+            <ul>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact-us.html">Contact-us</a></li>
+              <li><a href="terms-of-purchase.html">Terms of purchase</a></li>
+              <li><a href="terms-of-purchase.html">Privacy policies</a></li>
+            </ul>
+          </div>
+          <div class="footer-p">
+            <h2>Contact</h2>
+            <ul>
+              <li>Sentrumsvegen 75</li>
+              <li>3550 Gol_Norway</li>
+              <li>Phone: +4747184444</li>
+              <li>Info@rainydays.no</li>
+            </ul>
+          </div>
+        </section>
+      </footer>
+    <script src="js/contactUs.js"></script>
+  </body>
+</html>

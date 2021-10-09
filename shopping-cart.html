@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="selected jacket from Rainydyas" />
+    <title>Rainydays Shopping-cart</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/b318972c4d.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header class="top-header">
+      <a href="index.html"><img src="images/rainydays-logo.png" class="rainydays_logo" alt="rainydays logo image" /></a>
+      <ul class="icons">
+        <li>
+          <a href="index.html" class="home-icon"><i class="fas fa-1.5x fa-home"></i></a>
+        </li>
+        <li>
+          <a href=""><i class="fas fa-1.5x fa-user"></i></a>
+        </li>
+        <li>
+          <a href="favorite-product.html"><i class="fas fa-1.5x fa-heart"></i></a>
+        </li>
+        <li>
+          <a href="shopping-cart.html"><i class="fas fa-1.5x fa-shopping-cart"></i> </a>
+        </li>
+      </ul>
+     
+      <label class="hamburger-label" class="hamburger-label" for="hamburger-menu"><i class="fas fa-2x fa-bars"></i></label>
+      <input type="checkbox" id="hamburger-menu" />
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li><a href="boy.html">Boy</a></li>
+          <li><a href="girl.html">Girl</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact-us.html">Contact us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="shoppingcart-style">
+        <section class="shoppingcart-sec-decoration">
+          <div>
+            <h1>Shopping cart</h1>
+            <div class="shoppingcart-elements"></div>
+            <div class="total"></div>
+            <a href="purchase-success.html" class="cta-button cta-add-to-cart">Order Now</a>
+          </div>
+        </section>
+        <section class="shoppingcart-sec-decoration">
+          <h1>Shipment</h1>
+          <div class="shoppingcart-shipment-elements">
+            <input type="radio" id="standard-shipping" name="standard-shipping" value="standard-shipping" />
+            <img src="../images/delivery-truck-icon.png" alt="" />
+            <label for="standard-shipping">Standard Shipping (free)</label>
+          </div>
+          <p>Delivers at pick up point near you</p>
+          <div class="shoppingcart-shipment-elements">
+            <input type="radio" id="home-delivery" name="home-delivery" value="homedelivery" />
+            <img src="../images/delivery-truck-icon.png" alt="" />
+            <label for="home-delivery">Home delivery 149kr </label>
+          </div>
+          <p class="shoppingcart-shipment-elements">Bring will contact you for a delivery appointment</p>
+          <label for="dicount">Add discount or girft code(optional)</label>
+          <input type="dicount" name="discount" id="discount" class="discount" />
+          <div></div>
+        </section>
+      
+      </section>
+    </main>
+    <footer>
+      <section class="footer-box">
+        <div class="footer-p">
+          <h2>Newsletter</h2>
+          <p>Subscribe to recive exiting news and exclusive offers.</p>
+          <label for="email">Email</label>
+          <input type="text" name="email" id="email" class="signup-input" />
+          <input type="submit" value="Sign up" class="cta-button" id="cta-button-id" />
+        </div>
+        <div class="footer-p">
+          <h2>Rainydays</h2>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact-us.html">Contact-us</a></li>
+            <li><a href="terms-of-purchase.html">Terms of purchase</a></li>
+            <li><a href="terms-of-purchase.html">Privacy policies</a></li>
+          </ul>
+        </div>
+        <div class="footer-p">
+          <h2>Contact</h2>
+          <ul>
+            <li>Sentrumsvegen 75</li>
+            <li>3550 Gol_Norway</li>
+            <li>Phone: +4747184444</li>
+            <li>Info@rainydays.no</li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+
+    <script src="js/shoppingCart.js" type="module"></script>
+  </body>
+</html>
