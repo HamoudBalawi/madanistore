@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rainydays Delivery & Paymnet</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/b318972c4d.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header class="top-header">
+      <a href="index.html"><img src="images/rainydays-logo.png" class="rainydays_logo" alt="rainydays logo image" /></a>
+      <ul class="icons">
+        <li>
+          <a href="index.html" class="home-icon" ><i class="fas fa-1.5x fa-home"></i></a>
+        </li>
+        <li>
+          <a href=""><i class="fas fa-1.5x fa-user"></i></a>
+        </li>
+        <li>
+          <a href="favorite-product.html"><i class="fas fa-1.5x fa-heart"></i></a>
+        </li>
+        <li>
+          <a href="shopping-cart.html"><i class="fas fa-1.5x fa-shopping-cart"></i> </a>
+        </li>
+      </ul>
+      <label class="hamburger-label" class="hamburger-label" for="hamburger-menu"><i class="fas fa-2x fa-bars"></i></label>
+      <input type="checkbox" id="hamburger-menu" />
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li><a href="boy.html">Men</a></li>
+          <li><a href="girl.html">Women</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact-us.html">Contact us</a></li>
+        </ul>
+      </nav>
+    </header>
+     <main class="delivery"> 
+       <section class="delivery-section">
+         <h1><span class="active">Delivery Address</span>  </h1>
+          <form method="POST" class="formcontainer" id="contactform" >
+   
+             <label for="name"> Name /Last name</label>
+          
+             <input type="text" name="name" id="name" class="delivery-form" >
+            
+                 <label for="land/region">Land / Region</label>
+         
+                <input type="land/region" name="land/region" id="land/region" class="delivery-form" >
+            
+                 <label for="streetaddress">streetaddress</label>
+           
+                <input type="address" name="address" id="address" class="delivery-form">
+        
+               <label for="postnumber">Post Number</label> 
+       
+                <input type="postnumber" name="postnumber" id="postnumber" class="delivery-form">
+             
+                 <label for="city">Post City</label>
+           
+               <input type="city" name="city" id="city" class="delivery-form">
+            
+                 <label for="phone">Telephone</label>
+         
+                <input type="tel" name="tel" id="tel" class="delivery-form">
+           
+                <label for="email">E-mail address</label>
+        
+                <input type="email" name="email" id="email" class="delivery-form">
+                <div class="validation-error" id="emailerror">Please write the email address like this: example@company.com</div>
+                <input type="checkbox" id="anccount" name="anccount" value="anccount">
+                <label for="anccount">Save and create an account</label>
+                <label for="addtionalinformation">Addtional Information</label>
+                <textarea id="message" name="message" rows="10" cols="50"></textarea>   
+            </form>
+      </section>
+       <section class="delivery-section">
+         <h1><span class="active">Payment</span> </h1>
+         <p>Choose payment method</p>
+         <form >
+           <div class="payment-card-icons">
+            <input type="radio" id="payment" name="payment" value="payment">
+            <label for="payment">Payment card </label>
+            <img src="../images/mastercard-icon.png" alt="">
+            <img src="../images/visa-icon.png" alt="">
+            <img src="../images/american-express-icon.png" alt="">
+          </div>
+            <div>
+                 <label for="name">Name on the card</label>
+                 <input type="name" name="name" id="name" class="delivery-form">
+                 <label for="cardnumber">Card number</label>
+                <input type="cardnumber" name="cardnumber" id="cardnumber" class="delivery-form">
+                <label for="validy">Validty<label>
+                <input type="validty" name="validty" id="validty" class="delivery-form">       
+                <label for="controlnumber">Control Number</label>
+                <input type="controlnumber" name="controlnumber" id="controlnumber" class="delivery-form">
+                <input type="checkbox" id="payment" name="payment" value="payment">
+                <label for="payment">Save this payment card for next time</label>
+           </div>
+        <div class="payment-card-icons">
+            <input type="radio" id="payment" name="payment" value="payment">
+            <label for="payment">Paypal </label>
+            <img src="../images/paypal-icon.png" alt="">
+        </div>
+    
+          <div class=delivery-order>
+             <p>Delivery</p>
+             <p>Free</p>
+             <p>Total sum (ink.25% mva.)</p>
+             <p>499kr</p>
+   
+          </div>
+          <a href="purchase-success.html" class="cta-button cta-add-to-cart">Send Order</a>
+        </form>
+      </section>
+  </main>
+  <footer>
+    <section class="footer-box">
+      <div class="footer-p">
+        <h2>Newsletter</h2>
+        <p>Subscribe to recive exiting news and exclusive offers.</p>
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email" class="signup-input" />
+        <input type="submit" value="Sign up" class="cta-button" id="cta-button-id" />
+      </div>
+      <div class="footer-p">
+        <h2>Rainydays</h2>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact-us.html">Contact-us</a></li>
+          <li><a href="terms-of-purchase.html">Terms of purchase</a></li>
+          <li><a href="terms-of-purchase.html">Privacy policies</a></li>
+        </ul>
+      </div>
+      <div class="footer-p">
+        <h2>Contact</h2>
+        <ul>
+          <li>Sentrumsvegen 75</li>
+          <li>3550 Gol_Norway</li>
+          <li>Phone: +4747184444</li>
+          <li>Info@rainydays.no</li>
+        </ul>
+      </div>
+    </section>
+  </footer>
+  <script src="js/delivery-and-payment.js"></script>
+  </body>
+</html>

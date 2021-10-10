@@ -28,6 +28,7 @@ function createHtml(details) {
                                   <h4>${details.categories[0].name}</h4>                             
                                   <h4 >${details.price_html} usd</h4>                     
                                   <h5>In stock ${details.quantity_limit}</h5>
-                                   <button >Add To Cart</button>
-                                  </div></div>`;
+                                   <button>Add To Cart</button>
+                                  </div>
+                                  </div>`;
 }
